@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../../assets/css/Main.css';
-import Logo from '../../assets/images/logo.png';
+// import Logo from '../../assets/images/logo.png';
 
 const Navigation = () => {
   return (
@@ -10,9 +10,10 @@ const Navigation = () => {
       <Navbar expand="lg" bg="dark">
         <Container>
           <Navbar.Brand>
-            <Link to="/">
+            <Link to="/" className="logo">
               {/* eslint-disable-next-line */}
-              <img src={Logo} />
+              {/* <img src={Logo} /> */}
+              Easy Restaurant
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

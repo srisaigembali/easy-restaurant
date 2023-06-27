@@ -6,6 +6,11 @@ export class Home extends Component {
     return (
       <div>
         <h1>Home Page</h1>
+        <img
+          src="../../assets/images/324149785.jpg"
+          alt="banner"
+          width={'100%'}
+        />
       </div>
     );
   }
