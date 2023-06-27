@@ -20,7 +20,7 @@ const DishDetail = (props) => {
             <b>Category: {props.dish.category}</b>
           </p>
           <hr />
-          <DishComment comments={props.dish.comments} />
+          <DishComment comments={props.comments} />
         </Card.Body>
       </Card>
     </div>

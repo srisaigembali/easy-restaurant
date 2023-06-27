@@ -2,8 +2,19 @@
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  margin: 0 20px;
 }
 
 .mainMenu:hover {
   color: #81cde6;
+}
+
+.footer {
+  background-color: #212529;
+  margin: 10px auto;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
 }
