@@ -1,0 +1,9 @@
+.mainMenu {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.mainMenu:hover {
+  color: #81cde6;
+}
